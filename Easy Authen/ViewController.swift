@@ -36,8 +36,17 @@ class ViewController: UIViewController {
         //Check User
         if let strMyPassword = strDicUser[strUser]{
             print("User OK")
+            
+            //Check Password
+            if strMyPassword == passwordTextField.text {
+                massageLabel.text = "Welcom User"
+            }   else{
+                massageLabel.text = "Please Try Again Password False"
+            }
+            
         }   else {
             print("User False")
+            massageLabel.text = "No This User in my Database"
         }
         
     }   //loginButton

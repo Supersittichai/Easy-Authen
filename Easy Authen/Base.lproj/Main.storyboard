@@ -66,8 +66,8 @@
                                     <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8ar-3p-1Bp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Please Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Q0-Mh-Fpg">
-                                <rect key="frame" x="16" y="436" width="343" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Q0-Mh-Fpg">
+                                <rect key="frame" x="16" y="436" width="343" height="24"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -85,6 +85,7 @@
                             <constraint firstItem="6Q0-Mh-Fpg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RO5-yx-MGm"/>
                             <constraint firstItem="Sox-Bp-IL3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b6N-x0-UMl"/>
                             <constraint firstItem="1s8-Rx-fH8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nsD-6e-1Aq"/>
+                            <constraint firstItem="6Q0-Mh-Fpg" firstAttribute="top" secondItem="2va-2R-2JY" secondAttribute="bottom" constant="30" id="q7V-a9-4pg"/>
                             <constraint firstItem="9Uk-YY-VXB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="txC-RP-HhF"/>
                             <constraint firstItem="2va-2R-2JY" firstAttribute="top" secondItem="Sox-Bp-IL3" secondAttribute="bottom" constant="28" id="zY2-Dm-PSy"/>
                             <constraint firstItem="9Uk-YY-VXB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="zyJ-3T-5pA"/>
